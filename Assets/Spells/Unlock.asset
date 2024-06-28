@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a4d8175fe959340b9f2c220f9073ce, type: 3}
+  m_Name: Unlock
+  m_EditorClassIdentifier: 
+  _combination:
+  - H
+  - J
+  _menuImage: {fileID: 21300000, guid: 93a3affe0a6a30c4cb04ffc4787d61bb, type: 3}
+  _performSound: {fileID: 11400000, guid: b2f2aa4a090cbd340836bcd8e197d6b2, type: 2}
+  _description: 
+  range: 1
+  _contactFilter:
+    useTriggers: 1
+    useLayerMask: 1
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 512
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
